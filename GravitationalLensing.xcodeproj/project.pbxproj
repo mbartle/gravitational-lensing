@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BFEED921CFF83D100DF133B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFEED911CFF83D100DF133B /* AppDelegate.swift */; };
+		7BFEED941CFF83D100DF133B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFEED931CFF83D100DF133B /* ViewController.swift */; };
+		7BFEED971CFF83D100DF133B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFEED951CFF83D100DF133B /* Main.storyboard */; };
+		7BFEED991CFF83D100DF133B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFEED981CFF83D100DF133B /* Assets.xcassets */; };
+		7BFEED9C1CFF83D100DF133B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFEED9A1CFF83D100DF133B /* LaunchScreen.storyboard */; };
+		7BFEEDA71CFF83D100DF133B /* GravitationalLensingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFEEDA61CFF83D100DF133B /* GravitationalLensingTests.swift */; };
+		7BFEEDB21CFF83D100DF133B /* GravitationalLensingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFEEDB11CFF83D100DF133B /* GravitationalLensingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BFEEDA31CFF83D100DF133B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFEED861CFF83D100DF133B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFEED8D1CFF83D100DF133B;
+			remoteInfo = GravitationalLensing;
+		};
+		7BFEEDAE1CFF83D100DF133B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFEED861CFF83D100DF133B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFEED8D1CFF83D100DF133B;
+			remoteInfo = GravitationalLensing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BFEED8E1CFF83D100DF133B /* GravitationalLensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravitationalLensing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFEED911CFF83D100DF133B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BFEED931CFF83D100DF133B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BFEED961CFF83D100DF133B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BFEED981CFF83D100DF133B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BFEED9B1CFF83D100DF133B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BFEED9D1CFF83D100DF133B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFEEDA21CFF83D100DF133B /* GravitationalLensingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravitationalLensingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFEEDA61CFF83D100DF133B /* GravitationalLensingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitationalLensingTests.swift; sourceTree = "<group>"; };
+		7BFEEDA81CFF83D100DF133B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFEEDAD1CFF83D100DF133B /* GravitationalLensingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravitationalLensingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFEEDB11CFF83D100DF133B /* GravitationalLensingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitationalLensingUITests.swift; sourceTree = "<group>"; };
+		7BFEEDB31CFF83D100DF133B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFEED8B1CFF83D100DF133B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFEED9F1CFF83D100DF133B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFEEDAA1CFF83D100DF133B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BFEED851CFF83D100DF133B = {
+			isa = PBXGroup;
+			children = (
+				7BFEED901CFF83D100DF133B /* GravitationalLensing */,
+				7BFEEDA51CFF83D100DF133B /* GravitationalLensingTests */,
+				7BFEEDB01CFF83D100DF133B /* GravitationalLensingUITests */,
+				7BFEED8F1CFF83D100DF133B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BFEED8F1CFF83D100DF133B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFEED8E1CFF83D100DF133B /* GravitationalLensing.app */,
+				7BFEEDA21CFF83D100DF133B /* GravitationalLensingTests.xctest */,
+				7BFEEDAD1CFF83D100DF133B /* GravitationalLensingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BFEED901CFF83D100DF133B /* GravitationalLensing */ = {
+			isa = PBXGroup;
+			children = (
+				7BFEED911CFF83D100DF133B /* AppDelegate.swift */,
+				7BFEED931CFF83D100DF133B /* ViewController.swift */,
+				7BFEED951CFF83D100DF133B /* Main.storyboard */,
+				7BFEED981CFF83D100DF133B /* Assets.xcassets */,
+				7BFEED9A1CFF83D100DF133B /* LaunchScreen.storyboard */,
+				7BFEED9D1CFF83D100DF133B /* Info.plist */,
+			);
+			path = GravitationalLensing;
+			sourceTree = "<group>";
+		};
+		7BFEEDA51CFF83D100DF133B /* GravitationalLensingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BFEEDA61CFF83D100DF133B /* GravitationalLensingTests.swift */,
+				7BFEEDA81CFF83D100DF133B /* Info.plist */,
+			);
+			path = GravitationalLensingTests;
+			sourceTree = "<group>";
+		};
+		7BFEEDB01CFF83D100DF133B /* GravitationalLensingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BFEEDB11CFF83D100DF133B /* GravitationalLensingUITests.swift */,
+				7BFEEDB31CFF83D100DF133B /* Info.plist */,
+			);
+			path = GravitationalLensingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BFEED8D1CFF83D100DF133B /* GravitationalLensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFEEDB61CFF83D100DF133B /* Build configuration list for PBXNativeTarget "GravitationalLensing" */;
+			buildPhases = (
+				7BFEED8A1CFF83D100DF133B /* Sources */,
+				7BFEED8B1CFF83D100DF133B /* Frameworks */,
+				7BFEED8C1CFF83D100DF133B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravitationalLensing;
+			productName = GravitationalLensing;
+			productReference = 7BFEED8E1CFF83D100DF133B /* GravitationalLensing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BFEEDA11CFF83D100DF133B /* GravitationalLensingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFEEDB91CFF83D100DF133B /* Build configuration list for PBXNativeTarget "GravitationalLensingTests" */;
+			buildPhases = (
+				7BFEED9E1CFF83D100DF133B /* Sources */,
+				7BFEED9F1CFF83D100DF133B /* Frameworks */,
+				7BFEEDA01CFF83D100DF133B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFEEDA41CFF83D100DF133B /* PBXTargetDependency */,
+			);
+			name = GravitationalLensingTests;
+			productName = GravitationalLensingTests;
+			productReference = 7BFEEDA21CFF83D100DF133B /* GravitationalLensingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BFEEDAC1CFF83D100DF133B /* GravitationalLensingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFEEDBC1CFF83D100DF133B /* Build configuration list for PBXNativeTarget "GravitationalLensingUITests" */;
+			buildPhases = (
+				7BFEEDA91CFF83D100DF133B /* Sources */,
+				7BFEEDAA1CFF83D100DF133B /* Frameworks */,
+				7BFEEDAB1CFF83D100DF133B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFEEDAF1CFF83D100DF133B /* PBXTargetDependency */,
+			);
+			name = GravitationalLensingUITests;
+			productName = GravitationalLensingUITests;
+			productReference = 7BFEEDAD1CFF83D100DF133B /* GravitationalLensingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BFEED861CFF83D100DF133B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mason Bartle";
+				TargetAttributes = {
+					7BFEED8D1CFF83D100DF133B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7BFEEDA11CFF83D100DF133B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7BFEED8D1CFF83D100DF133B;
+					};
+					7BFEEDAC1CFF83D100DF133B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7BFEED8D1CFF83D100DF133B;
+					};
+				};
+			};
+			buildConfigurationList = 7BFEED891CFF83D100DF133B /* Build configuration list for PBXProject "GravitationalLensing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BFEED851CFF83D100DF133B;
+			productRefGroup = 7BFEED8F1CFF83D100DF133B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BFEED8D1CFF83D100DF133B /* GravitationalLensing */,
+				7BFEEDA11CFF83D100DF133B /* GravitationalLensingTests */,
+				7BFEEDAC1CFF83D100DF133B /* GravitationalLensingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BFEED8C1CFF83D100DF133B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFEED9C1CFF83D100DF133B /* LaunchScreen.storyboard in Resources */,
+				7BFEED991CFF83D100DF133B /* Assets.xcassets in Resources */,
+				7BFEED971CFF83D100DF133B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFEEDA01CFF83D100DF133B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFEEDAB1CFF83D100DF133B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFEED8A1CFF83D100DF133B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFEED941CFF83D100DF133B /* ViewController.swift in Sources */,
+				7BFEED921CFF83D100DF133B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFEED9E1CFF83D100DF133B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFEEDA71CFF83D100DF133B /* GravitationalLensingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFEEDA91CFF83D100DF133B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFEEDB21CFF83D100DF133B /* GravitationalLensingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BFEEDA41CFF83D100DF133B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFEED8D1CFF83D100DF133B /* GravitationalLensing */;
+			targetProxy = 7BFEEDA31CFF83D100DF133B /* PBXContainerItemProxy */;
+		};
+		7BFEEDAF1CFF83D100DF133B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFEED8D1CFF83D100DF133B /* GravitationalLensing */;
+			targetProxy = 7BFEEDAE1CFF83D100DF133B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BFEED951CFF83D100DF133B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFEED961CFF83D100DF133B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BFEED9A1CFF83D100DF133B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFEED9B1CFF83D100DF133B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BFEEDB41CFF83D100DF133B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BFEEDB51CFF83D100DF133B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BFEEDB71CFF83D100DF133B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravitationalLensing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BFEEDB81CFF83D100DF133B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravitationalLensing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BFEEDBA1CFF83D100DF133B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GravitationalLensingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravitationalLensing.app/GravitationalLensing";
+			};
+			name = Debug;
+		};
+		7BFEEDBB1CFF83D100DF133B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GravitationalLensingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravitationalLensing.app/GravitationalLensing";
+			};
+			name = Release;
+		};
+		7BFEEDBD1CFF83D100DF133B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GravitationalLensingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GravitationalLensing;
+			};
+			name = Debug;
+		};
+		7BFEEDBE1CFF83D100DF133B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GravitationalLensingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GravitationalLensing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BFEED891CFF83D100DF133B /* Build configuration list for PBXProject "GravitationalLensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFEEDB41CFF83D100DF133B /* Debug */,
+				7BFEEDB51CFF83D100DF133B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFEEDB61CFF83D100DF133B /* Build configuration list for PBXNativeTarget "GravitationalLensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFEEDB71CFF83D100DF133B /* Debug */,
+				7BFEEDB81CFF83D100DF133B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BFEEDB91CFF83D100DF133B /* Build configuration list for PBXNativeTarget "GravitationalLensingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFEEDBA1CFF83D100DF133B /* Debug */,
+				7BFEEDBB1CFF83D100DF133B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BFEEDBC1CFF83D100DF133B /* Build configuration list for PBXNativeTarget "GravitationalLensingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFEEDBD1CFF83D100DF133B /* Debug */,
+				7BFEEDBE1CFF83D100DF133B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BFEED861CFF83D100DF133B /* Project object */;
+}
