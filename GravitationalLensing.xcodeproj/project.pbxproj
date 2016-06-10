@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B16BA9C1D00ABC10099F892 /* LensingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B16BA9B1D00ABC10099F892 /* LensingObject.swift */; };
+		7BBD81DB1D08AC820093EC94 /* GravModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD81DA1D08AC820093EC94 /* GravModel.swift */; };
+		7BBD81DC1D08AC820093EC94 /* GravModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD81DA1D08AC820093EC94 /* GravModel.swift */; };
 		7BFEED921CFF83D100DF133B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFEED911CFF83D100DF133B /* AppDelegate.swift */; };
 		7BFEED941CFF83D100DF133B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFEED931CFF83D100DF133B /* ViewController.swift */; };
 		7BFEED971CFF83D100DF133B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFEED951CFF83D100DF133B /* Main.storyboard */; };
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B16BA9B1D00ABC10099F892 /* LensingObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LensingObject.swift; sourceTree = "<group>"; };
+		7BBD81DA1D08AC820093EC94 /* GravModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravModel.swift; sourceTree = "<group>"; };
 		7BFEED8E1CFF83D100DF133B /* GravitationalLensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravitationalLensing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFEED911CFF83D100DF133B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BFEED931CFF83D100DF133B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +104,8 @@
 			children = (
 				7BFEED911CFF83D100DF133B /* AppDelegate.swift */,
 				7BFEED931CFF83D100DF133B /* ViewController.swift */,
+				7BBD81DA1D08AC820093EC94 /* GravModel.swift */,
+				7B16BA9B1D00ABC10099F892 /* LensingObject.swift */,
 				7BFEED951CFF83D100DF133B /* Main.storyboard */,
 				7BFEED981CFF83D100DF133B /* Assets.xcassets */,
 				7BFEED9A1CFF83D100DF133B /* LaunchScreen.storyboard */,
@@ -258,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFEED941CFF83D100DF133B /* ViewController.swift in Sources */,
+				7B16BA9C1D00ABC10099F892 /* LensingObject.swift in Sources */,
 				7BFEED921CFF83D100DF133B /* AppDelegate.swift in Sources */,
+				7BBD81DB1D08AC820093EC94 /* GravModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFEEDA71CFF83D100DF133B /* GravitationalLensingTests.swift in Sources */,
+				7BBD81DC1D08AC820093EC94 /* GravModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,11 +414,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = GravitationalLensing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -418,11 +430,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = GravitationalLensing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbartle.GravitationalLensing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
